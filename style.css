@@ -37,7 +37,7 @@ div{
 } 
 
 #dottedBorder{
-    border: 3px dotted navy
+    border: 3px dotted navy; 
 }
 
 #solidBorder{
@@ -102,6 +102,35 @@ div{
 #perRightMargin{
     height: 200px; 
     width: 35%; 
+} 
+
+.defaultPadding{
+    padding: 10px; 
+} 
+
+.defaultMargin{
+    margin: 0px 30px; 
+} 
+
+.defaultBorder{
+    border: 3px ridge fuchsia; 
 }
+
+section h3{ 
+    font-size: 42px; 
+} 
+
+section header h3{
+    font-size: 30px; 
+} 
+
+section article p{
+    color: goldenrod; 
+} 
+
+h3,p{
+    color: goldenrod; 
+}
+
 
 
